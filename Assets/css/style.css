@@ -25,10 +25,10 @@ body {
 
   nav ul {
     display: flex;
-    
     justify-content: space-between;
     min-width: 300px;
     list-style:none;
+    
     align-content: flex-end;
    
    
@@ -46,18 +46,27 @@ body {
   
   .img-main {
     flex:1;
-     height: 500px;
+     height: 400px;
     width: 100%;
     
   }
   .surf_report {
     flex:1;
-   
-    height: 380px;
-    width: 1227px;
+    height: 250px;
+    width: 68%;
+    
 
   }
     
+ 
+
+.smallerImages {
+  flex:1;
+
+  height: 10px;
+  width: 2%;
+
+}
   .section1{
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +76,7 @@ body {
    .section2{
     display: flex;
     flex-wrap: wrap;
-    
+    height: 450px;
 
    }
 
@@ -79,10 +88,10 @@ body {
         
       }
 
-      .second_divider{
+   .second_divider{
         flex: 1 0 0 ;
         flex-wrap: wrap;
-         height: 200px; 
+        height: 200px; 
             
           }
       
@@ -106,7 +115,7 @@ body {
      border-right: 2px solid rgb(9, 9, 68);
      width: 40%;
      font-size: 35px;
-     height: 290px;
+     height: 300px;
      text-align:right;
    
      
